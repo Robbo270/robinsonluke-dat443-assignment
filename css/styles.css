@@ -1,0 +1,84 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #000000;
+}
+
+body{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: top;
+    margin: 0px;
+}
+
+h1{
+    text-align: center;
+    padding-bottom: 1px;
+    margin: 10px;
+    transform: translate(-0%, -10%);
+}
+
+.sketch{
+    /* move both sketchs to the middle of the page */
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+#sketch1 {
+    opacity: 50%;
+}
+
+#sketch2{
+    display: none;
+   
+}
+
+#sketch3{
+    background-color: #ffffff;
+    width: 800px;
+    height: 800px;
+}
+
+button{
+    background-color: #000000;
+    border:4px solid #00ccff ;
+    color: rgb(255, 255, 255);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#btn{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+
+}
+
+#shape{
+    background-color: #000000;
+    border: 4px solid #00ccff;
+    color: #ffffff;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: bold;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    position: absolute;
+    top: 360px;
+    left: 210px;
+    
+}
